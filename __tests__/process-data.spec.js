@@ -55,22 +55,24 @@ describe('Process Data', () => {
                 'project4'
             ])
         })
-        it('Should calculate the average satisfaction for passing students', () => {
+        it('Should return the number of passing students in project1 and their average satisfaction', () => {
+            expect().toEqual()
 
         })
-        it('Should calculate the average satisfaction for failed students', () => {
-
+        it('Should return the number of failed students in project1 and their average satisfaction', () => {
+            expect().toEqual()
         })
     })
     describe('Experience', () => {
-        it('Should return average satisfaction for all years of experience present in the data', () => {
-
+        it('Should return average satisfaction for all years of experience given in the data set', () => {
+            expect(processedData.experience[2].satisfaction).toEqual(4)
+            expect(processedData.experience[3].satisfaction).toEqual(2)
         })
     })
     describe('Demographics', () => {
-        it('Should return average age and satisfaction for the cohort', () => {
-
+        it('Should return average age and average satisfaction for the cohort', () => {
+            expect(processedData.demographics.age).toEqual(33)
+            expect(processedData.demographics.satisfaction).toEqual(3)
         })
     })
-
 })

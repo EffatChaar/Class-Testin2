@@ -6,8 +6,8 @@ describe('Student Stats', () => {
         processedData = {
             projects: {
                 'project1' : {
-                    passed: { number: 49, satisfaction: 3 },
-                    failed: { number: 51, satisfaction: 3 }
+                    passed: { number: 10, satisfaction: 10 },
+                    failed: { number: 10, satisfaction: 10 }
                 }
             },
             experience: {
@@ -20,7 +20,7 @@ describe('Student Stats', () => {
             },
             demographics: {
                 averageAge: 32,
-                satisfaction: 3
+                aveSatisfaction: 3
             }
         }
     })
